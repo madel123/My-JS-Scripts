@@ -1,0 +1,9 @@
+<!-- conditional check for jquery -->
+<script language="javascript">
+if (typeof jQuery == 'undefined') {
+    var script = document.createElement('script');
+    script.type = "text/javascript";
+    script.src = "http://code.jquery.com/jquery-1.7.2.js";
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
+</script>

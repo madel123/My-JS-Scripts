@@ -1,0 +1,1 @@
+element.replace(/<[^>]*>/g, "").replace(/[^\w\s]/gi, '').replace(/\n/g, "").replace(/  /g, " ");
